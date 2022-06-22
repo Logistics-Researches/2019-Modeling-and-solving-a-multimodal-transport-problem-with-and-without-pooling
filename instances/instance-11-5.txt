@@ -1,0 +1,88 @@
+11
+5
+2 
+1 1 1 0 0 0 0 0 1 0 1   
+680 300 520 950 800 800 1000 710 650 1200 450
+3 2 2 3 1 3 1 3 2 2 3   
+1.5
+0.5
+33
+5
+400 210 321 400 605 120 780 965 857 989 500  
+15 50 90 40 20 30 60 71 85 45 80    
+50 15 32 90 86 55 40 33 28 95 49   
+90 32 15 45 30 17 55 60 28 20 66   
+40 90 45 15 20 35 40 52 70 61 19   
+20 86 30 20 15 35 25 35 40 20 22   
+30 55 17 35 35 15 22 60 50 25 20    
+60 40 55 40 25 22 15 30 60 38 49   
+71 33 60 52 35 60 30 15 50 45 19    
+85 28 82 70 40 50 60 50 15 52 66    
+45 95 20 61 20 25 38 45 52 15 22   
+80 49 66 19 22 20 49 19 66 22 15
+100 130
+90 120
+80 120
+120 150
+105 135
+60 90
+77 170
+80 125
+90 120
+70 100
+99 129
+500 370
+3 2 2 3 2 2 2 2 3 3 3    
+36 35 35 36 35 35 35 35 36 36 36   
+50 43 60 55 52 33 31 43 44 61 77   
+18 60 108 48 24 36 72 85 102 54 96 
+60 18 38.4 108 103.6 66 48 39.6 33.6 114 58.8   
+108 38.4 18 54 36 20.4 66 72 33.6 24 79.2    
+48 108 54 18 24 42 48 62.4 84 73.2 22.8     
+24 103.6 36 24 18 42 30 42 48 24 26.4   
+36 66 20.4 42 42 18 26.4 72 48 45.6 24   
+72 48 66 48 30 26.4 18 36 72 45.6 58.8   
+85.2 39.6 72 62.4 42 72 36 18 60 54 22.8    
+102 33.6 33.6 84 48 48 72 60 18 62.4 79.2   
+54 114 24 73.2 24 45.6 45.6 54 62.4 18 26.4  
+96 58.8 79.2 22.8 26.4 24 58.8 22.8 79.2 26.4 18  
+120 156
+55 45
+44 144
+96 66
+126 162
+72 108
+66 69
+22 71
+108 144
+84 120
+118.8 154.8
+3 6
+
+ 
+-------------------------------------------------------------------------------------
+n n'
+n' [m] : eligible a l'ouverture
+f [m] : coût d'ouverture
+S [a] : ensemble des segments s sur l'arc a
+cp [s] : coût de transport plein
+cv [s] : coût de transport à vide
+cs [s] : capacité du camion ou segment s
+g[m] : coût de chargement/déchargement
+c[m] : capacité du plateforme de mutualisation
+
+d[n][m] : distance entre ville fournisseur et ville de mutualisation m
+d[m][d] : distance entre ville mutualisation m et ville d
+c[d] : capacité du plateforme portuaire d'expédition (d)
+Li [s] : limite inférieur du camion ou sur le segment s
+Ls [s] : limite supérieur du camion ou sur le segment s
+R[n][m] : quantité de flux expédié de la ville fournisseur n (=offre du fournisseur) vers la ville m
+T[n][m] : temps d'acheminement de la ville fournisseur n vers la ville m
+T[m][d] : temps d'acheminement de la ville m vers la ville d
+
+
+ 
+ 
+ 
+ 
+ 
